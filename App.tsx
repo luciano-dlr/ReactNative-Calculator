@@ -1,4 +1,4 @@
-import { CalculadoraScreen } from './src/screens/CalculadoraScreen';
+import { CalculatorScreen } from './src/screens/CalculatorScreen';
 import { SafeAreaView, StatusBar } from 'react-native';
 import { styles } from './src/theme/appTheme';
 
@@ -11,7 +11,7 @@ export const App = () => {
         barStyle={'light-content'}
       />
 
-      <CalculadoraScreen />
+      <CalculatorScreen />
 
     </SafeAreaView>
 

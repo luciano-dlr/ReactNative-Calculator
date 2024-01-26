@@ -14,7 +14,8 @@ export const styles = StyleSheet.create({
     result: {
         color: 'white',
         fontSize: 60,
-        textAlign: 'right'
+        textAlign: 'right',
+        marginBottom:10
     },
     smallResult: {
         color: 'rgba(255,255,255,0.5)',
@@ -32,15 +33,15 @@ export const styles = StyleSheet.create({
         width:80,
         borderRadius:100,
         justifyContent:'center',
-        marginHorizontal:10
+        marginHorizontal:10,
     },
     btnText:{
         textAlign:'center',
-        padding:12,
-        fontSize:34,
+        padding:10,
+        fontSize:30,
         color:'white',
-        fontWeight:'300'
+        fontWeight:'300',
+        right:4,
+        top:0
     }
 });
-
-
